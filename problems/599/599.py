@@ -13,5 +13,13 @@ https://www.lanqiao.cn/problems/599/learning/?page=1&first_category_id=1&problem
 import os
 import sys
 
+ans=0
+for i in range(1,2020):
+  for a in str(i):
+    if a in '2019':
+      ans+=i*i
+      break
+print(ans)
+
 # 请在此输入您的代码
 

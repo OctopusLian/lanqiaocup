@@ -14,7 +14,7 @@ import sys
 #%为求余数，如7除3=2余1，结果为1
 
 a,b,n = map(int,input().split())
-week = a*5 + b*2  #计算总的做题数
+week = a*5 + b*2  #计算一周总的做题数
 days = (n//week)*7#做了几个整周的天数
 n %= week         #剩余的题数
 if n <= 5*a:      #如果剩余的题数，五天能做完
