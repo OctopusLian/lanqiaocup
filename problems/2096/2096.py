@@ -5,7 +5,7 @@ import sys
 res = 0
 for i in range(1,13):
     for j in range (1,32):
-        s = '2022%02d%02d'% (i,j)
+        s = '2022%02d%02d'% (i,j)   #将日期转换为字符串
         if'012' in s or '123' in s:
             res +=1
 print(res)
